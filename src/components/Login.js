@@ -25,7 +25,7 @@ const login = () => {
     const [modalDashboard, setModalDashboard] = useState(false)
 
     const createOneButtonAlert = () =>
-        Alert.alert('EcoDrive', 'El registro tiene que tener un Correo Institucional.', [
+        Alert.alert('EcoDrive', 'El registro tiene que tener un Correo Institucional 1.', [
         {
             text: 'Cancel',
             onPress: () => console.log('Cancel Pressed'),
